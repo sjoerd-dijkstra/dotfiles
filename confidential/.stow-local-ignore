@@ -1,0 +1,4 @@
+.bitbucket.secret
+.gist.secret
+.gitcredentials.secret
+.ssh/config.secret
