@@ -1,0 +1,62 @@
+#!/usr/bin/env bash
+
+alias my_neo="echo AJ1c86zP6Z5WGAy8qCWxVr9uW3ADsnuLKx"
+alias my_eos="echo EOS8Ap5FdatX2i3vNjRfmm9KbnfCchZgUdzz1JuLK7i4YFGHcdZ9n"
+alias docker_clean_unused='docker system prune --all --force --volumes'
+
+# SYSTEM & NAVIGATION
+alias fhere="find . -name "
+alias mktar="tar -pvczf"
+alias untar="tar -zxvf"
+alias ll="ls -l"
+alias la="ls -al"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+alias .......="cd ../../../../../.."
+
+# SHORTS
+alias g="git"
+alias b="brew"
+alias e="$EDITOR"
+alias t="tmux"
+alias j="jobs"
+alias h="history"
+alias p="cd ~/Projects"
+alias d="cd ~/Downloads"
+alias f="fuck"
+
+# DOTFILES (edit)
+alias ea="e ~/.aliases"
+alias ee="e ~/.exports"
+alias ebp="e ~/.bash_profile"
+alias efc="e ~/.config/fish/config.fish"
+alias egc="e ~/.gitconfig"
+
+# MOUNTING
+alias unmount1="umount ~/Mount/1"
+alias unmount2="umount ~/Mount/2"
+alias unmount3="umount ~/Mount/3"
+
+# SAFE REMOVAL OF FILES
+alias nuke="shred --remove --force --verbose --zero --iterations=10"
+
+# BREW
+alias brew_file="brew bundle dump -force"
+
+# CHECKING
+alias check_ip="tput setaf 2; curl ipinfo.io/ip"
+alias check_ip_local="tput setaf 2; ipconfig getifaddr en0"
+
+# RELOADING
+alias reload="exec $SHELL"
+
+# AFK
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# C
+alias cmake_auto="mkdir build; cd build; cmake -DCMAKE_BUILD_TYPE=Release ..; make -j 4"
+alias cmake_auto_xcode="mkdir build; cd build; cmake -DCMAKE_BUILD_TYPE=Release .. -G Xcode"
+

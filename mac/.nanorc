@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+include /usr/local/share/nano/*.nanorc

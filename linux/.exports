@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# PATH
+export PATH="\
+$HOME/.bin:\
+$PATH"
+
+# OTHER
+export LC_ALL="en_US.UTF-8"                                      # Language
+export LC_CTYPE="en_US.UTF-8"
+export LANG="en_US"                                              #
+export VISUAL="vim"                                                # Editor of choice
+export EDITOR="$VISUAL"                                          #
+export TERM="xterm-256color"                                     # iTerm
+export CLICOLOR=1

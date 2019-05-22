@@ -1,0 +1,11 @@
+[global]
+floatX = float32
+device = gpu0 
+mode = FAST_RUN
+optimizer_including = cudnn
+
+[lib]
+cnmem = 0.30
+
+[gpuarray]
+preallocate = 0.30

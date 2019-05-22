@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+# SETTINGS
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US"
+export TERM="xterm-256color"
+export EDITOR="code"
+export GPG_TTY=(tty)
+
+# PATH
+export PATH="\
+$HOME/.bin:\
+$HOME/.jenv/shims:\
+$HOME/.rbenv/shims:\
+/usr/local/opt/curl/bin:\
+/usr/local/opt/sqlite/bin:\
+/usr/local/opt/ncurses/bin:\
+/usr/local/opt/gettext/bin:\
+/usr/local/opt/openssl/bin:\
+/usr/local/opt/go/libexec/bin:\
+/usr/local/opt/sphinx-doc/bin:\
+/usr/local/opt/grep/libexec/gnubin:\
+/usr/local/opt/findutils/libexec/gnubin:\
+/usr/local/opt/coreutils/libexec/gnubin:\
+$PATH"
