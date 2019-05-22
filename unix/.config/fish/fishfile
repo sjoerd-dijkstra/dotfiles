@@ -1,9 +1,11 @@
-Sjoerdie/functions
-fisherman/z
-oh-my-fish/plugin-grc
-oh-my-fish/plugin-aws
-oh-my-fish/plugin-thefuck
 brgmnn/fish-docker-compose
-oh-my-fish/plugin-bang-bang
+fisherman/z
 jethrokuan/fzf
+oh-my-fish/plugin-aws
+oh-my-fish/plugin-bang-bang
+oh-my-fish/plugin-gi
+oh-my-fish/plugin-grc
+oh-my-fish/plugin-osx
+oh-my-fish/plugin-thefuck
 oh-my-fish/theme-bobthefish
+~/Projects/fish-util

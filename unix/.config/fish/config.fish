@@ -1,11 +1,3 @@
-####
-#
-# fish config file
-#
-# by
-#
-# Sjoerd
-#
 
 # exports and aliases
 source "$HOME/.exports"
