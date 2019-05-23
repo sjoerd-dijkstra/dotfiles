@@ -3,3 +3,5 @@ confidential/.bitbucket
 confidential/.gist
 confidential/.gitcredentials
 confidential/.ssh/config
+confidential/.aws/config 
+confidential/.aws/credentials
