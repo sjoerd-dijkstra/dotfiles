@@ -25,14 +25,23 @@ git clone git@github.com:sjoerd-dijkstra/dotfiles.git ~/.dotfiles
 ### Usage
 
 #### Basic
+
 Symlink the dotfiles you like, e.g.:
 ```
-stow unix && stow mac
+stow host-mac
+stow general
+stow vim
 ```
+etc..
 
 #### Optional
+
 To decrypt and link the *secret* files:
 ```
 git secret reveal
 stow confidential
 ```
+
+### Screen
+
+
