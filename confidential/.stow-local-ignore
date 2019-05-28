@@ -4,3 +4,4 @@
 .ssh/config.secret
 .aws/config.secret
 .aws/credentials.secret
+.smbcredentials

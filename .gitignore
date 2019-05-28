@@ -5,3 +5,4 @@ confidential/.gitcredentials
 confidential/.ssh/config
 confidential/.aws/config 
 confidential/.aws/credentials
+confidential/.smbcredentials
