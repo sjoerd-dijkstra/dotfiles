@@ -8,3 +8,4 @@ oh-my-fish/plugin-grc
 oh-my-fish/plugin-thefuck
 oh-my-fish/theme-bobthefish
 ~/Projects/fish-util
+evanlucas/fish-kubectl-completions
