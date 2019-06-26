@@ -1,10 +1,10 @@
 # git secret seed
 .gitsecret/keys/random_seed
 
-# ignore all scecret files
+# ignore all secret files ...
 confidential/.*
 confidential/.*/*
 
-# except the encrypted versions XD
+# ... except the encrypted versions
 !confidential/.*.secret
 !confidential/.*/*.secret
