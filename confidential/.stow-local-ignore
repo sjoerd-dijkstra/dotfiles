@@ -1,7 +1,2 @@
-.bitbucket.secret
-.gist.secret
-.gitcredentials.secret
-.ssh/config.secret
-.aws/config.secret
-.aws/credentials.secret
-.smbcredentials.secret
+.*.secret
+.*/*.secret
