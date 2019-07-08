@@ -7,6 +7,15 @@ export TERM="xterm-256color"
 export EDITOR="code"
 export GPG_TTY=(tty)
 
+# k8s
+export KUBECONFIG="\
+/Users/sjoerd/.kube/config:\
+/Users/sjoerd/Projects/terraform-plus/kubeconfig_dev:\
+/Users/sjoerd/Projects/terraform-plus/kubeconfig_tst:\
+/Users/sjoerd/Projects/terraform-plus/kubeconfig_acc:\
+/Users/sjoerd/Projects/terraform-plus/kubeconfig_prd:\
+"
+
 # PATH
 export PATH="\
 $HOME/.bin:\
