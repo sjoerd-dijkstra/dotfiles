@@ -6,6 +6,7 @@ export LANG="en_US"
 export TERM="xterm-256color"
 export EDITOR="code"
 export GPG_TTY=(tty)
+export NVM_DIR="$HOME/.nvm"
 
 # k8s
 export KUBECONFIG="\
