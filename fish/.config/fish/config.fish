@@ -13,6 +13,7 @@ eval (python -m virtualfish)
 set -g theme_newline_cursor yes
 set -g theme_display_vi no
 set -g theme_color_scheme gruvbox
+set -g theme_display_k8s_context yes
 set -g theme_nerd_fonts yes
 set -g fish_color_command white --bold
 set -g fish_color_autosuggestion 555 green
