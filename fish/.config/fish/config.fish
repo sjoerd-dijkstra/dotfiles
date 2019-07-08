@@ -9,12 +9,31 @@ eval (dircolors -c $HOME/.dircolors)
 # virtual fish
 eval (python -m virtualfish)
 
-# settings
-set -g theme_newline_cursor yes
-set -g theme_display_vi no
-set -g theme_color_scheme gruvbox
+# bibthefish settings
+set -g theme_display_vagrant no
+set -g theme_display_docker_machine yes
 set -g theme_display_k8s_context yes
+set -g theme_display_hg no
+set -g theme_display_virtualenv yes
+set -g theme_display_ruby yes
+set -g theme_display_nvm yes
+set -g theme_display_user ssh
+set -g theme_display_hostname ssh
+set -g theme_display_vi no
+set -g theme_display_date no
+set -g theme_display_cmd_duration yes
+set -g theme_title_display_process yes
+set -g theme_title_display_path no
+set -g theme_title_display_user no
+set -g theme_title_use_abbreviated_path no
+set -g theme_powerline_fonts yes
 set -g theme_nerd_fonts yes
+set -g theme_show_exit_status yes
+set -g theme_color_scheme solarized
+set -g theme_newline_cursor yes
+set -g theme_newline_prompt '→ '
+
+# color
 set -g fish_color_command white --bold
 set -g fish_color_autosuggestion 555 green
 set -g fish_color_comment red
@@ -35,4 +54,6 @@ set -g fish_color_search_match bryellow --background=black
 set -g fish_color_selection white --bold --background=black
 set -g fish_color_user brgreen
 set -g fish_color_valid_path --underline
+
+# grc
 set -g grcplugin_ls --color
