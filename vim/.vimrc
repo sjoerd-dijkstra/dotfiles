@@ -43,10 +43,10 @@ filetype plugin indent on
 let g:solarized_termcolors=256
 set background=dark
 
-colorscheme brogrammer
+"colorscheme brogrammer
 "colorscheme darcula
 "colorscheme py-darcula
-"colorscheme solarized
+colorscheme solarized
 "colorscheme xcode-default
 
 " Make Vim more useful
