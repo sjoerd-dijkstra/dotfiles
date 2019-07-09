@@ -30,6 +30,8 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'dracula/vim'
 Plug 'blueshirts/darcula'
 Plug 'marciomazza/vim-brogrammer-theme'
+Plug 'gosukiwi/vim-atom-dark'
+Plug 'kamykn/dark-theme.vim'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 call plug#end()
@@ -43,10 +45,12 @@ filetype plugin indent on
 let g:solarized_termcolors=256
 set background=dark
 
-"colorscheme brogrammer
+colorscheme darktheme
+"colorscheme atom-dark
+"colorscheme dark
 "colorscheme darcula
 "colorscheme py-darcula
-colorscheme solarized
+"colorscheme solarized
 "colorscheme xcode-default
 
 " Make Vim more useful
