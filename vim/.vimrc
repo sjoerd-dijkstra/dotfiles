@@ -32,6 +32,7 @@ Plug 'blueshirts/darcula'
 Plug 'marciomazza/vim-brogrammer-theme'
 Plug 'gosukiwi/vim-atom-dark'
 Plug 'kamykn/dark-theme.vim'
+Plug 'joshdick/onedark.vim'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 call plug#end()
@@ -45,12 +46,14 @@ filetype plugin indent on
 let g:solarized_termcolors=256
 set background=dark
 
-colorscheme darktheme
+"colorscheme brogrammer
+"colorscheme onedark
+"colorscheme darktheme
 "colorscheme atom-dark
 "colorscheme dark
 "colorscheme darcula
 "colorscheme py-darcula
-"colorscheme solarized
+colorscheme solarized
 "colorscheme xcode-default
 
 " Make Vim more useful
