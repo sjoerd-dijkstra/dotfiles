@@ -4,7 +4,8 @@ This repo contains my collection of configuration / rc / dotfiles.
 
 ## Description
 
-In unix world you are your dotfiles, that's why you need them to be awesome and easy to use accross all your machines..
+> You are your dotfiles
+
 
 ## Getting Started
 
@@ -17,19 +18,26 @@ In unix world you are your dotfiles, that's why you need them to be awesome and 
 
 ### Installing
 
-Make sure above dependencies are installed on your system, and you own a copy of this repo.
+Make sure above binaries are available on your system, and:
 ```
 git clone git@github.com:sjoerd-dijkstra/dotfiles.git ~/.dotfiles
 ```
 
-### Usage
+## Usage
 
 #### Basic
 
 Symlink the dotfiles you like, e.g.:
 ```
-stow host-mac
+cd  ~/.dotfiles
+
+# install generic
 stow general
+
+# host specific
+stow host-mac
+
+# specific program
 stow vim
 ```
 etc..
@@ -41,7 +49,3 @@ To decrypt and link the *secret* files:
 git secret reveal
 stow confidential
 ```
-
-### Screen
-
-
