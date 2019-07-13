@@ -1,2 +1,6 @@
+# ignore git's ignore file
+.gitignore
+
+# don't stow encrypted files
 .*.secret
 .*/*.secret
