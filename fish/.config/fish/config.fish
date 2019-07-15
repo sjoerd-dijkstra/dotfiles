@@ -19,8 +19,8 @@ set -g theme_display_ruby yes
 set -g theme_display_nvm yes
 set -g theme_display_user ssh
 set -g theme_display_hostname ssh
-set -g theme_display_vi no
-set -g theme_display_date no
+set -g theme_display_vi yes
+set -g theme_display_date yes
 set -g theme_display_cmd_duration yes
 set -g theme_title_display_process yes
 set -g theme_title_display_path no
