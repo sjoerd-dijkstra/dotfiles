@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source "$HOME/.bash_prompt"
-source "$HOME/.aliases"
+
 source "$HOME/.exports"
+source "$HOME/.aliases"
 eval $(dircolors -b $HOME/.dircolors)
