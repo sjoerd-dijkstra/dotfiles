@@ -1,11 +1,8 @@
 # ignore all secret files ...
-.*
-.*/*
+*
 
 # ... except the encrypted versions
 !.*.secret
-!.*/*.secret
-!.*/*.*.secret
 
 # .. and this file ;)
 !.gitignore
