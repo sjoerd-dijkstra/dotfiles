@@ -8,15 +8,10 @@ export VISUAL="code"
 export EDITOR="vim"
 export GPG_TTY=(tty)
 export NVM_DIR="$HOME/.nvm"
+#export TF_LOG="d"	
 
 # k8s
-export KUBECONFIG="\
-/Users/sjoerd/.kube/config:\
-/Users/sjoerd/Projects/terraform-plus/kubeconfig_dev:\
-/Users/sjoerd/Projects/terraform-plus/kubeconfig_tst:\
-/Users/sjoerd/Projects/terraform-plus/kubeconfig_acc:\
-/Users/sjoerd/Projects/terraform-plus/kubeconfig_prd:\
-"
+export KUBECONFIG="/Users/sjoerd/.kube/config"
 
 # PATH
 export PATH="\
