@@ -18,6 +18,7 @@ export PATH="\
 $HOME/.bin:\
 $HOME/.jenv/shims:\
 $HOME/.rbenv/shims:\
+/usr/local/sbin/:\
 /usr/local/opt/curl/bin:\
 /usr/local/opt/sqlite/bin:\
 /usr/local/opt/ncurses/bin:\
