@@ -9,7 +9,7 @@ eval (dircolors -c $HOME/.dircolors)
 # virtual fish
 eval (python -m virtualfish)
 
-# bibthefish settings
+# bobthefish settings
 set -g theme_display_vagrant no
 set -g theme_display_docker_machine yes
 set -g theme_display_k8s_context yes
