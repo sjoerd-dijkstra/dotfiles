@@ -133,7 +133,7 @@
 
 
     editor = vim
-	pager = diff-so-fancy | less --tabs=4 -RFX
+    pager = diff-so-fancy | less --tabs=4 -RFX
 
 # so much color
 [color]
@@ -192,9 +192,9 @@
     # Use the Git 1.x.x default to avoid errors on machines with old Git
     # installations. To use `simple` instead, add this to your `~/.extra` file:
     # `git config --global push.default simple`. See http://git.io/mMah-w.
-	default = simple
+    default = simple
     # Make `git push` push relevant annotated tags when pushing branches out.
-	followTags = true
+    followTags = true
 
 [filter "lfs"]
     fetchexclude = *
