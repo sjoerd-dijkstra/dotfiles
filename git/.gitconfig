@@ -69,7 +69,7 @@
     # Find branches containing commit
     fb = "!f() { git branch -a --contains $1; }; f"
 
-    lpr = !" git ls-remote origin 'pull/*/head' | awk '{print $2}' | \
+    lpr = !"git ls-remote origin 'pull/*/head' | awk '{print $2}' | \
         while read ref; do \
             pr=$(echo $ref | cut -d/ -f3) \
             git fetch origin $ref > /dev/null \
@@ -131,8 +131,10 @@
     # http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
     precomposeunicode = false
 
-
+    # default to vim as editor of choice
     editor = vim
+
+    # beautify diffs
     pager = diff-so-fancy | less --tabs=4 -RFX
 
 # so much color
@@ -150,15 +152,18 @@
     whitespace = red reverse
     newMoved = cyan
     oldMoved = blue
+
 [color "diff-highlight"]
     oldNormal = red bold
     oldHighlight = "red bold 52"
     newNormal = "green bold"
     newHighlight = "green bold 22"
+
 [color "branch"]
     current = yellow reverse
     local = yellow
     remote = green
+
 [color "status"]
     added = yellow
     changed = green
@@ -201,6 +206,7 @@
     clean = git-lfs clean -- %f
     smudge = git-lfs smudge --skip -- %f
     process = git-lfs filter-process --skip
+
 [credential]
-	helper = !aws codecommit credential-helper $@
-	UseHttpPath = true
+	  helper = !aws codecommit credential-helper $@
+	  UseHttpPath = true
